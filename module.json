@@ -1,0 +1,156 @@
+{
+  "id": "snyder-scene-packer",
+  "title": "snyder scene packer",
+  "description": "for scene packing",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Chad"
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/snyder-scene-packer/assets/cover.png",
+      "thumbnail": "modules/snyder-scene-packer/assets/cover-thumbnail.png"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "snyder actor packer",
+      "path": "./packs/actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "adventure",
+      "label": "snyder adventure packer",
+      "path": "./packs/adventure",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "items",
+      "label": "snyder item packer",
+      "path": "./packs/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "journals",
+      "label": "snyder scene packer",
+      "path": "./packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "snyder macro packer",
+      "path": "./packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "maps",
+      "label": "snyder scene packer",
+      "path": "./packs/maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "playlists",
+      "label": "snyder playlist packer",
+      "path": "./packs/playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rolltables",
+      "label": "snyder scene packer",
+      "path": "./packs/rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Starter Scene Packer",
+      "sorting": "m",
+      "color": "#0000ff",
+      "packs": [
+        "actors",
+        "items",
+        "journals",
+        "macros",
+        "maps",
+        "playlists",
+        "rolltables"
+      ],
+      "folders": [
+        {
+          "name": "Adventure",
+          "sorting": "a",
+          "color": "#ff0000",
+          "packs": [
+            "adventure"
+          ]
+        }
+      ]
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
