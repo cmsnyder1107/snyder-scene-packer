@@ -1,5 +1,6 @@
 {
   "id": "snyder-scene-packer",
+  "name": "snyder-scene-packer",
   "title": "snyder scene packer",
   "description": "for scene packing",
   "version": "1.0.0",
@@ -150,7 +151,7 @@
       }
     ]
   },
-  "url": "",
-  "manifest": "",
-  "download": ""
+  "url": "https://github.com/cmsnyder1107/snyder-scene-packer",
+  "manifest": "https://github.com/cmsnyder1107/snyder-scene-packer/blob/main/module.json",
+  "download": "https://github.com/cmsnyder1107/snyder-scene-packer/blob/main/module.zip"
 }
